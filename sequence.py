@@ -6,3 +6,18 @@
     that came before it and adds them together.
 '''
 n = int(input("Enter the length of the sequence: ")) # Do not change this line
+
+x = 1
+y = 2
+c = 3
+number = 0
+print(x)
+print(y)
+print(c)
+
+for i in range(3,n):
+    number = x + y + c
+    print(number)
+    x = y
+    y = c
+    c = number
